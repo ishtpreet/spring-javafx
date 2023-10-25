@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+
+
+<Tab fx:id="tabLogger" text="Simulator" xmlns:fx="http://javafx.com/fxml/1"
+     fx:controller="com.jcchv.java.controller.LoggerTabController">
+    <content>
+    <AnchorPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+    <children>
+        <ImageView
+                fx:id="imageView"
+                fitHeight="600"
+                fitWidth="520.0"
+                layoutX="61.0"
+                layoutY="83.0"
+                pickOnBounds="true"
+                preserveRatio="true"
+        >
+            <image>
+                <Image
+                        url="@../../assets/Low_Fidelity_Diagram.png"
+                        backgroundLoading="true"
+                />
+            </image>
+        </ImageView>
+    </children>
+    </AnchorPane>
+    </content>
+</Tab>
