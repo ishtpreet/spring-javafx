@@ -8,7 +8,6 @@ $ git clone https://github.com/jcchv/Spring-JavaFX.git
 # Building
 
 You must meet the following requirements:
-
 - JDK8u40
 - Gradle 2.6
 
