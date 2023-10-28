@@ -13,10 +13,10 @@ name: "Code Analysis | Build"
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "master" ]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ main ]
+    branches: [ "master" ]
 jobs:
   analyze:
     name: Analyze
